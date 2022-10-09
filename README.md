@@ -7,13 +7,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# POST CRUD
+System of posts. add, edit, delete and list.
 # Config
 1. configure file .env
-```php
+```
 APP_URL=YOUR_URL
 ```
 
-```php
+```
 DB_CONNECTION=YOUR_DB_CONNECTION
 DB_HOST=YOUR_HOST
 DB_PORT=3306
