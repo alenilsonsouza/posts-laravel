@@ -2,7 +2,7 @@
     <div class="container">
         <div class="post-area">
             <div class="button-area">
-                <a href="{{ env('APP_URL') }}">Voltar</a>
+                <a href="javascript:history.back();">Voltar</a>
             </div>
             @if ($page == 'addPost')
                 <h1>Adicionar Post</h1>
