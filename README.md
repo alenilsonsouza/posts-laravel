@@ -11,10 +11,13 @@
 System of posts. add, edit, delete and list.
 # Config
 1. configure file .env
+
+configure information url.
 ```
 APP_URL=YOUR_URL
 ```
 
+Set information of database
 ```
 DB_CONNECTION=YOUR_DB_CONNECTION
 DB_HOST=YOUR_HOST
@@ -24,13 +27,13 @@ DB_USERNAME=DB_USER
 DB_PASSWORD=DB_PASS
 ```
 
-2. Make Migration
+2. Make Migration (CMD)
 
 ```
 php artisan migrate
 ```
 
-3. Run project
+3. Run project (CMD)
 
 ```
 php artisan serve
