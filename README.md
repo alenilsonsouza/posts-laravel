@@ -9,16 +9,18 @@
 
 # Config
 1. configure file .env
-``APP_URL=YOUR_URL``
+```php
+APP_URL=YOUR_URL
+```
 
-``
+```php
 DB_CONNECTION=YOUR_DB_CONNECTION
 DB_HOST=YOUR_HOST
 DB_PORT=3306
 DB_DATABASE=DB_NAME
 DB_USERNAME=DB_USER
 DB_PASSWORD=DB_PASS
-``
+```
 
 2. Make Migration
 
